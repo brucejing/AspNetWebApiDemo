@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8Api", "DotNet8Api\Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet9Api", "DotNet9Api\DotNet9Api.csproj", "{34ABEF33-2D1C-44BD-9421-72413B4A6EA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenApi.SwaggerUI", "OpenApi.SwaggerUI\OpenApi.SwaggerUI.csproj", "{4B619E01-5E3A-466C-A002-EA4BBF12E4C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{34ABEF33-2D1C-44BD-9421-72413B4A6EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34ABEF33-2D1C-44BD-9421-72413B4A6EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34ABEF33-2D1C-44BD-9421-72413B4A6EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B619E01-5E3A-466C-A002-EA4BBF12E4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B619E01-5E3A-466C-A002-EA4BBF12E4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B619E01-5E3A-466C-A002-EA4BBF12E4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B619E01-5E3A-466C-A002-EA4BBF12E4C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
