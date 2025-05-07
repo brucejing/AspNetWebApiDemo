@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenApi.SwaggerUI", "OpenAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwag.SwaggerUI", "NSwag.SwaggerUI\NSwag.SwaggerUI.csproj", "{C9973266-82A7-47BF-9E07-8C6DD9CCAC31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenApi.Scalar", "OpenApi.Scalar\OpenApi.Scalar.csproj", "{1821EC27-AAE8-45AF-8EF5-282C06D5C970}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C9973266-82A7-47BF-9E07-8C6DD9CCAC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9973266-82A7-47BF-9E07-8C6DD9CCAC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9973266-82A7-47BF-9E07-8C6DD9CCAC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1821EC27-AAE8-45AF-8EF5-282C06D5C970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1821EC27-AAE8-45AF-8EF5-282C06D5C970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1821EC27-AAE8-45AF-8EF5-282C06D5C970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1821EC27-AAE8-45AF-8EF5-282C06D5C970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
