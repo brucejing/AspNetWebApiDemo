@@ -23,6 +23,13 @@ namespace NSwag.SwaggerUI
                 // Add web UIs to interact with the document
                 // Available at: http://localhost:<port>/swagger
                 app.UseSwaggerUi(); // UseSwaggerUI Protected by if (env.IsDevelopment())
+
+                // Add ReDoc UI to interact with the document
+                // Available at: http://localhost:<port>/redoc
+                app.UseReDoc(options =>
+                {
+                    options.Path = "/api/v1/redoc";
+                });
             }
 
             app.UseAuthorization();
