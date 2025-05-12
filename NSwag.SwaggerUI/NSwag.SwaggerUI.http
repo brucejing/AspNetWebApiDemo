@@ -1,0 +1,6 @@
+@NSwag.SwaggerUI_HostAddress = http://localhost:5097
+
+GET {{NSwag.SwaggerUI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
